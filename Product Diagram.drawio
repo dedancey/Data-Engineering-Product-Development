@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="27.0.5">
+  <diagram name="Page-1" id="L8_v_17Rrb6wSzgQIRJ4">
+    <mxGraphModel dx="1418" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-1" value="Excel/CSV Files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="poRmHGzt5Mzh2kYHj1ci-14" target="poRmHGzt5Mzh2kYHj1ci-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="poRmHGzt5Mzh2kYHj1ci-14" target="poRmHGzt5Mzh2kYHj1ci-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="poRmHGzt5Mzh2kYHj1ci-14" target="poRmHGzt5Mzh2kYHj1ci-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-14" value="Cleaned Data" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="210" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-24" value="Power BI&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-26" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.customer_360;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="920" y="242.7" width="60" height="54.6" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="260" as="targetPoint" />
+            <mxPoint x="80" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="251" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-28" value="Library&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-29" value="Python" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="poRmHGzt5Mzh2kYHj1ci-29" target="poRmHGzt5Mzh2kYHj1ci-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499.03999999999996" y="260.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-36" value="AI Predictive Modelling&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="820" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.81;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="poRmHGzt5Mzh2kYHj1ci-1" target="poRmHGzt5Mzh2kYHj1ci-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-38" value="Automated Testing" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="poRmHGzt5Mzh2kYHj1ci-29" target="poRmHGzt5Mzh2kYHj1ci-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="poRmHGzt5Mzh2kYHj1ci-40" value="CI/CD Pipeline" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="470" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
