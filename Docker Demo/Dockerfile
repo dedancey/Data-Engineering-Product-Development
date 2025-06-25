@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 #installing dependencies
-RUN pip install -r requirements.txt 
+RUN pip install -r Requirements.txt 
 
 # running the application
 ENTRYPOINT ["python", "docker_demo.py"]
