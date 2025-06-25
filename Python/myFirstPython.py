@@ -40,7 +40,6 @@ def add_days_on_loan(df):
 
 def clean_text_values(df):
     return df.astype(str).apply(lambda col: col.str.strip().str.replace('"', '', regex=False))
-    
 
 def clean_systembook(df):
     df = clean_text_values(df)
