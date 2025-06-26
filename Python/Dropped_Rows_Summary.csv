@@ -1,0 +1,5 @@
+DataFrame,Step,RowsRemoved
+Systembook,Remove Duplicates,0
+Systembook,Drop NA Rows,3
+SystemCustomers,Drop NA Rows,1
+SystemCustomers,Remove Duplicates,0
