@@ -9,7 +9,7 @@ class Calculator:
     def get_difference(self):
         return self.a - self.b
 
-    def ger_product(self):
+    def get_product(self):
         return self.a * self.b   
     
     def get_quotient(self):
