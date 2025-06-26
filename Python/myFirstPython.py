@@ -64,13 +64,13 @@ def add_days_on_loan(df):
 
 
 def main():
-    Systembook = pd.read_csv(r"C:\Users\Admin\Desktop\Data-Engineering-Product-Development\python_app\03_Library Systembook.csv")
-    SystemCustomers = pd.read_csv(r"C:\Users\Admin\Desktop\Data-Engineering-Product-Development\python_app\03_Library SystemCustomers.csv")
+    Systembook = pd.read_csv("03_Library Systembook.csv")
+    SystemCustomers = pd.read_csv("03_Library SystemCustomers.csv")
 
     cleaned_books = clean_systembook(Systembook)
     cleaned_customers = clean_systemcustomers(SystemCustomers)
 
-    output_folder = r"C:\Users\Admin\Desktop\Data-Engineering-Product-Development\python_app"
+    output_folder = "."
     file_path_1 = os.path.join(output_folder, "03_Library Systembook_Cleaned.csv")
     file_path_2 = os.path.join(output_folder, "03_library System_Customers_Cleaned.csv")
 
@@ -78,21 +78,21 @@ def main():
     cleaned_customers.to_csv(file_path_2, index=False)
 
     # SQL Server connection
-    server = "localhost"
+    """ server = "localhost"
     database = "python_app"
     driver = "ODBC Driver 17 for SQL Server"
     params = urllib.parse.quote_plus(
     "DRIVER={ODBC Driver 17 for SQL Server};SERVER=localhost;DATABASE=python_app;Trusted_Connection=yes;"
 )
     connection_string = f"mssql+pyodbc:///?odbc_connect={params}"
-    engine = create_engine(connection_string)
+    engine = create_engine(connection_string) """
 
     # Load cleaned CSVs and push to SQL
-    df_books = pd.read_csv(file_path_1)
+    """ df_books = pd.read_csv(file_path_1)
     df_customers = pd.read_csv(file_path_2)
 
     df_customers.to_sql("SystemCustomers", con=engine, if_exists='replace', index=False)
-    df_books.to_sql("SystemBook", con=engine, if_exists='replace', index=False)
+    df_books.to_sql("SystemBook", con=engine, if_exists='replace', index=False) """
 
 # This ensures main() only runs when script is executed directly
 if __name__ == '__main__':
